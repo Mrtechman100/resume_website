@@ -17,16 +17,27 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-#copilot-header-title {
-    font-size: 1.5rem;
+#copilot-header {
+    background-color: rgb(42, 35, 67);
+    color: rgb(151, 226, 237);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
+    float: left;
 }
 
-#copilot-content-body {
+img {
+    max-width: 50%;
+    height: 50%;
+}
+
+#copilot-content {
     margin: 0;
     padding: 0;
+    float: left;
 }
 
 a {
